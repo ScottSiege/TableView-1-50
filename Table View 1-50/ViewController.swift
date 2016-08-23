@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
         
-        cell.textLabel?.text = String((indexPath.row + 1)*(indexPath.row + 1))
+        cell.textLabel?.text = String(indexPath.row + 1)
         
         return cell
     }
